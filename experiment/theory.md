@@ -12,7 +12,7 @@ This experiment focuses on understanding the types of electrodes that can be use
 A typical MFC consists of an anode and a cathode separated by a proton exchange membrane (PEM). In general, the biofilm produced at the anode electrode catalysis the conversion of chemical energy into electrical energy by producing electrons and protons and the oxygen in the cathode undergoes reduction to form water molecules (Fig.1). This indicates that the efficiency of an MFC depends on the extracellular electron transfer mechanism and the transport of electrons to electrodes takes place in different ways. Some microorganisms, such as Geobacter and Shewanella, known as exoelectrogens deliver electrons from their oxidative metabolic pathways to the external environment, and are directly transferred to the electrode surface.
 
 &nbsp;
-<img src="images/t1.png" title="" />
+<img src="images/T1.png" title="" />
 
 Figure 1: Design of MFC
 
@@ -35,4 +35,4 @@ The electrodes that are used in various electrochemical processes that get consu
 The electrodes that are not intentionally consumed or corroded during operation time are referred to as non-sacrificial electrodes. The non-sacrificial electrodes are selected in electrochemical reactions to ensure structural integrity and functionality over extended periods of usage. In an MFC, the use of non-sacrificial electrodes ensures durability with long-term performance efficiency. Commonly used non-sacrificial electrodes in MFC are graphite or carbon cloth which possess high conductivity, chemical stability, and resistance to corrosive properties leading to long-term operation. Carbon electrodes, such as graphite or carbon cloth, are widely used as non-sacrificial electrodes in many electrochemical systems, including microbial fuel cells (MFCs), electrolysis cells, and electrochemical sensors. Carbon electrodes are chosen for their high conductivity, chemical stability, and resistance to corrosion, making them suitable for long-term operation. Other examples included platinum, gold, titanium, and stainless-steel electrodes. Studies have shown that the packed and brush design of the anodes provides higher power output when compared to planar-type anodes by increasing the anode-specific surface area and consequently the volumetric density of exoelectrogenic bacteria. The brush configuration also has high porosity that helps the microbial load hold onto the anode structure. In an MFC, the non-sacrificial electrodes provide consistent electrical power output over time. 
 
 &nbsp;
-<img src="images/t2.png" title="" />
+<img src="images/T2.png" title="" />
