@@ -15,7 +15,22 @@ div.at-container {
     padding-top: 3%;
   }
   
+  button {
+    padding: 10px 20px;
+    background-color: rgb(228, 109, 155);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 80%;
+    margin-top: 2px; 
+   
+  }
   
+  
+  button:hover {
+    background-color: #0056b3;
+  }
   
   
   
