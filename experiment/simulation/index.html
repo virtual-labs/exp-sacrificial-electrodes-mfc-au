@@ -9,11 +9,9 @@
 
 <body style="background-color:rgb(192, 192, 192);">
   <div class='at-container'>
-    <img
-      src="images\logo.png"
-      width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
+    <img src="images\logo.png" width="15%" height="4%" style="margin-left:1%; padding-top: 2%">
 
-    <div id='header'>Efficiency of Sacrificial and Non Sacrificial Electrodes in MFC</div>
+    <div id='header'>Efficiency of Sacrificial and Non-Sacrificial Electrodes in MFC</div>
   </div>
 
 
@@ -51,9 +49,7 @@
   </table>
 
   <div class="image-container">
-    <img
-      src="images\tabletop.png"
-      alt="micro fuel cell" class="centered">
+    <img src="images\tabletop.png" alt="micro fuel cell" class="centered">
     <div class="color-overlay">
       <p class="overlay-text1">Waste Water</p>
       <p class="overlay-anolytetext"></p>
@@ -68,59 +64,42 @@
     <div class="color-overlay2"></div>
 
     <div class="commonAnode-container">
-      <img
-        src="images\finalelectrode.gif"
-        alt="Aluminium" id="aluminium-image">
+      <img src="images\finalelectrode.gif" alt="Aluminium" id="aluminium-image">
 
     </div>
     <div class="commonAnode-graphite">
 
-      <img
-        src="images\charcoal brush3.png"
-        alt="Graphite" id="graphite-image">
+      <img src="images\charcoal brush3.png" alt="Graphite" id="graphite-image">
     </div>
     <div class="commonCathode-container">
-      <img
-        src="images\electrode1.gif"
-        alt="Copper Image" id="copper-image">
+      <img src="images\electrode1.gif" alt="Copper Image" id="copper-image">
 
       <div class="commonCathode-graphite">
 
-        <img
-          src="images\charcoal brush3.png"
-          alt="Graphite" id="cathodegraphite-image">
+        <img src="images\charcoal brush3.png" alt="Graphite" id="cathodegraphite-image">
       </div>
 
     </div>
 
     <div class="stand_image">
-      <img
-        src="images\STAND.png"
-        alt="Stand Image" id="stand-image">
+      <img src="images\STAND.png" alt="Stand Image" id="stand-image">
 
     </div>
     <div class="wire_image">
-      <img
-        src="images\background_converted.png"
-        alt="left wireimage" id="wire-image">
+      <img src="images\background_converted.png" alt="left wireimage" id="wire-image">
 
     </div>
 
     <div class="wire2_image">
-      <img
-        src="images\red_wire.png"
-        alt="redright wireimage" id="wire2-image">
+      <img src="images\red_wire.png" alt="redright wireimage" id="wire2-image">
 
     </div>
 
     <div class="bulb_image" id="bulb">
-      <img id="bulbOff-image"
-        src="images\BULB1.png">
+      <img id="bulbOff-image" src="images\BULB1.png">
 
-      <img id="bulbOnGraphite-image" style="display:none;"
-        src="images\bulb_on.png">
-      <img id="bulbOnNormal-image" style="display:none;"
-        src="images\bulb_on.png">
+      <img id="bulbOnGraphite-image" style="display:none;" src="images\bulb_on.png">
+      <img id="bulbOnNormal-image" style="display:none;" src="images\bulb_on.png">
     </div>
 
     <div class="myChart_id">
@@ -323,8 +302,9 @@
         document.getElementById("bulbOff-image").style.display = "none";
         document.getElementById('myChart').style.display = 'none';
         document.getElementById('myChart1').style.display = 'block';
-        const ctx1 = document.getElementById('myChart1').getContext('2d');
+        resetGifs(); 
 
+        const ctx1 = document.getElementById('myChart1').getContext('2d');
         var img = document.getElementById("bulbOnNormal-image");
         var brightness = 80;
         var maxBrightness = 190;
@@ -476,7 +456,17 @@
       }, 10);
     }
 
+    var cathodecopperImage = document.getElementById('copper-image');
 
+
+    function resetGifs() {
+
+      const src = cathodecopperImage.src;
+      cathodecopperImage.src = '';
+      setTimeout(() => {
+        cathodecopperImage.src = src;
+      });
+    }
 
   </script>
 </body>
